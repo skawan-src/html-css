@@ -160,8 +160,8 @@ aside > ul {
     list-style-position: inside;
     columns: 2;
 }
-aside li::marker {
-    content: '🗸 ';
+aside li{
+    list-style-type: '\2714\00A0\00A0';
 }
 footer {
     background-color: var(--cor5);
