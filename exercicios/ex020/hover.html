@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+        }
+        #menu {
+            background-color: bisque;
+            padding: 1.5em;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            background-color: rgb(145, 239, 243);
+            color: rgb(0, 0, 0);
+            display: block;
+            font-size: 1em;
+            width: 145px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <div>
+            Login
+            <p>texto escondido</p>
+
+        </div>
+    </div>
+</body>
+</html>

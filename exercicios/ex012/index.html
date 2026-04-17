@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="">
+    </picture>
+
+    <h2>Reproduzindo audio</h2>
+    <audio controls preload="metadata">
+        <source src="guanacast-33.mp3" type="audio/mpeg">
+        <source src="guanacast-33.ogg" type="audio/ogg">
+        <source src="guanacast-33.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio,
+        <a href="guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mpeg">clique aqui para baixar o arquivo MP3</a>.</p>
+    </audio>
+
+    <h2>Reproduzindo videos</h2>
+    <video controls width="500px" controlsList="nodownload" poster="imagens/foto-g.png">
+        <source src="midias/Pexels-Video.mp4" type="video/mp4">
+        <source src="midias/Pexels-Video.m4v" type="video/m4v">
+        <source src="midias/Pexels-Video.webm" type="video/webm">
+        <p>Desculpe, mas seu navegador não suporta vídeos</p>
+    </video>
+
+    <h2>Reporduzindo videos do Youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=o0a5Oy6KtNF2ZqJH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "idroid";
+  src: url("fonts/idroid.otf") format(opentype);
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(137, 255, 200);
+}
+header {
+  text-align: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(153, 255, 192, 0.396),
+    rgb(2, 57, 0)
+  );
+  padding-top: 30px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.491);
+}
+header > h1 {
+  margin-top: 0;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 2px 1px 1px black;
+}
+header > p {
+  color: white;
+  text-shadow: 2px 1px 1px black;
+}
+header > nav {
+  text-align: left;
+}
+nav {
+  margin-top: 50px;
+  padding: 5px;
+}
+nav > a {
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 15px;
+  color: white;
+}
+.justificado {
+  text-align: justify;
+}
+.justificado::first-letter {
+  margin-left: 40px;
+}
+main {
+  background-color: white;
+  padding: 15px;
+  width: 750px;
+  height: auto;
+  margin: auto;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.491);
+}
+main > h1 {
+  color: green;
+  font-family: "idroid", Arial, sans-serif;
+  margin-top: 0;
+}
+.gradiende {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 67, 0, 0.199),
+    rgba(0, 255, 0, 0.121),
+    rgba(164, 248, 164, 0)
+  );
+  color: green;
+  font-family: "idroid", Arial, sans-serif;
+}
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(32, 120, 0);
+}
+picture > img {
+  width: 750px;
+}
+#bugdroid {
+  margin: auto;
+  width: 300px;
+}
+#evolution {
+  margin: auto;
+  width: 700px;
+}
+.theiframe {
+  background-color: rgb(0, 69, 0);
+  width: 750px;
+  margin: auto;
+  padding: 15px 16px 15px 16px;
+}
+#extra-tp {
+  background-color: white;
+  width: 763px;
+  margin: auto;
+  padding: 10px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.491);
+}
+#extra-tp > aside {
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.446);
+}
+#extra-tp > aside > p {
+  border-radius: 5px 5px 0px 0px;
+  color: white;
+  margin: 0;
+  background-color: rgb(3, 135, 89);
+  padding: 10px;
+}
+#extra-tp > aside > section {
+  background-color: rgba(2, 108, 71, 0.275);
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px;
+}
+#listas {
+  display: flex;
+}
+#lista1 { 
+  width: 400px;
+}
+ul {
+  padding-left: 15px;
+}
+li::marker {
+  content: "✔ ";
+}
+footer {
+  background-color: rgb(0, 61, 0);
+  color: white;
+  font-size: 0.8em;
+  text-align: center;
+  padding: 10px;
+}
