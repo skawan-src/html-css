@@ -56,7 +56,7 @@ section.imagem {
   box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.418);
   background-position: right center;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; 
 }
 section.imagem > p {
   display: inline-block;
