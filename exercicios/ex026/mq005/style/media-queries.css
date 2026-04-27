@@ -10,20 +10,20 @@ TV / GRANDES TELAS: (min-width: 1200px) and (max-width: --px)
 */
 
 @media only screen and (min-width: 768px) {
-    span#burguer {
-        display: none;
-    }
+  span#burguer {
+    display: none;
+  }
 
-    menu { 
-        display: inline;
-    }
+  menu {
+    display: inline-block;
+  }
 
-    menu li {
-        display: inline-block;
-        width: 100px;
-    }
+  menu li {
+    display: inline-block;
+    width: 100px;
+  }
 
-    main {
-        width: 768px;
-    }
-}   
+  main {
+    width: 768px;
+  }
+}
