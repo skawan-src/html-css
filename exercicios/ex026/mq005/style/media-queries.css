@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* 
+-------------------------------------------------------------------
+Pequenas Telas: (max-width: 600px)
+Celular: (min-width: 600px) and (max-width: 768px)
+Tablet: (min-width: 768px) and (max-width: 992px)
+Desktop: (min-width: 992px) and (max-width: 1200px)
+TV / GRANDES TELAS: (min-width: 1200px) and (max-width: --px) 
+*/
+
+@media only screen and (min-width: 768px) {
+    span#burguer {
+        display: none;
+    }
+
+    menu { 
+        display: inline;
+    }
+
+    menu li {
+        display: inline-block;
+        width: 100px;
+    }
+
+    main {
+        width: 768px;
+    }
+}   

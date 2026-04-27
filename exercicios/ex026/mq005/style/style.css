@@ -44,12 +44,16 @@ span#burguer:hover {
 menu {
     display: none;
     margin: auto;
-    text-align: center;
+}
+
+menu.visivel {
+    display: block;
 }
 
 li {    
     padding: 2px;
     list-style-type: none;
+    text-align: center;
 }
 
 li > a {
