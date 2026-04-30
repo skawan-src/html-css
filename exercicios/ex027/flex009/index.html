@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div.container {
+            display: flex;
+            flex-flow: row wrap;
+
+            background-color: blanchedalmond;
+        }
+
+        div.item {
+            flex-basis: 150px;
+            
+            background-color: azure;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">Conteúdo um pouco grande</div>
+        <div class="item">Conteúdo Grande</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">Conteúdo muito grande capaz de transbordar</div>
+        <div class="item">G</div>
+    </div>
+</body>
+</html>
