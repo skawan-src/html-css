@@ -15,7 +15,7 @@
       max-height 1s ease,
       opacity .5s ease;
   }
-
+  
   header > h1 {
     flex: 0 0 50px;
   }
